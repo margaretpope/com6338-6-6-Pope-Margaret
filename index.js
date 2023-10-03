@@ -24,6 +24,5 @@ document.onkeyup = function(e) {
 document.onclick = function(e) {
     if (!mainMenu.contains(e.target) && !button.contains(e.target))
     mainMenu.classList.remove('show-menu')
-    button.setAttribute('aria-expanded', false)
 }
 
